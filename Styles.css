@@ -70,3 +70,29 @@ nav ul li a{
     align-items: center;
     padding-right: 50px;
 }
+
+
+/* MAIN */
+
+.Title-Screen{
+    display: flex;
+    
+}
+
+.Slogan {
+    font-family: Lora, serif;
+    width: 100%;
+    font-size:72px;
+}
+
+.TextMain {
+    font-family: 'Old Standart TT', serif;
+    width: 100%;
+    font-size :36px;
+    align-self: flex-end;
+}
+
+.BENImg {
+    width: 509px;
+    height: 509px;
+}
