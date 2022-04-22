@@ -178,12 +178,13 @@ nav ul li a{
 .Stock-all{
     display: flex;
     flex-direction: row;
+    margin-left: 20px;
+    margin-right: 190px;
+    width: 41%;
 }
 
 .Stock-Button {
     display: flex;
-    margin-left: 20px;
-    margin-right: 190px;
     background: linear-gradient(180deg, rgba(47, 230, 255, 0.65) 0%, rgba(0, 224, 255, 0.0715) 61.46%);
     border: 5px solid #000000;
     box-sizing: border-box;
@@ -192,6 +193,7 @@ nav ul li a{
     width: 662px;
     height: 90px;
     align-items: center;
+    letter-spacing:24.5%;
 }
 
 .Stock-Button a {
@@ -206,8 +208,29 @@ nav ul li a{
     color: black;
 }
 
-.Stock-descrepriton {
+.Stock-descreprtion {
+    display:flex;
+    margin-top: 50px;
+    flex-direction:column;
+    align-items: center;
+    border: 7px solid ;
+    border-color:rgba(0, 102, 255, 1) ;
     background: linear-gradient(180deg, rgba(20, 0, 255, 0.2) -24.47%, rgba(255, 255, 255, 0) 100%);
     border-radius: 9px;
+    font-size: 40px;
+    line-height: 1px;
+    height: 470px;
+    font-weight:900px;
 }
 
+.Stock-descreprtion p {
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.Stock-Family {
+    display:flex;
+    width: 100%;
+    justify-content:flex-end;
+    margin-left: 420px;
+}
