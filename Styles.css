@@ -140,7 +140,7 @@ nav ul li a{
     flex-direction: column;
 }
 
-.Stock-header{
+.Header{
     width: 100%;
     font-family: 'Lora';
     line-height: 82px;
@@ -152,7 +152,7 @@ nav ul li a{
     justify-content: center;
     margin-top:100px ;
 }
-.Stock-header h2{
+.Header h2{
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -233,4 +233,86 @@ nav ul li a{
     width: 100%;
     justify-content:flex-end;
     margin-left: 420px;
+}
+
+/* REVIEW */
+
+.Star {
+    width: 31px;
+    height: 31px;
+}
+
+
+.Review-Full {
+    width: 1411px;
+    height: 750px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 41.67%, rgba(0, 133, 255, 0.08) 100%);
+    border: 13px solid rgba(0, 163, 255, 0.39);
+    border-radius: 32px;
+    margin: 40px auto;
+}
+
+.Review {
+    display: flex;
+}
+
+.Name_Surname {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+}
+
+.Review p {
+    font-family: 'Lora';
+    width: 80%;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 29px;
+    margin-top:1px;
+}
+
+.Stars_Background {
+    width: 173px;
+    height: 35px;
+    background: #FF9900;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.Open_All {
+    width: 100%;
+    text-align: center;
+}
+
+/* FEEDBACK */
+
+.Feedback { 
+    width: 1450px;
+    height: 569px;  
+    margin: 50px auto;
+    background: linear-gradient(180deg, #C4FFC6 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 2px;
+}
+
+input {
+    width: 650px;
+    height: 101px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.FeedBack_Name {
+    display: flex;
+}
+
+.Feedback_Big {
+    width: 1250px;
+    height: 101px;
+    box-sizing: border-box;
+    margin: 10px auto;
 }
