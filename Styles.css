@@ -160,6 +160,18 @@ nav ul li a{
     line-height: 82px;
 }
 
+.Header h3{
+    width: 1406px;
+    height: 128px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+}
+
 .Stock-Island {
     width: 100%;
     display: flex;
@@ -318,7 +330,7 @@ input {
     margin: 10px auto;
 }
 .Feedback_Big textarea {
-    width: 1375px;
+    width: 1369px;
     height: 300px;
     font-size: 29px;
 }
@@ -345,4 +357,136 @@ input {
     font-weight: 700;
     font-size: 36px;
 
+}
+
+/* TEAM */
+
+.Team{
+    margin: 0 auto;
+}
+
+.All_Persons_Top {
+    display:flex;
+    margin: 50px auto ;
+    flex-wrap: wrap;
+}
+
+.All_Persons_Bottom {
+    display:flex;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    margin-bottom:200px;
+}
+
+.Person_Img {
+    height: 240px;
+    width: 216px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 26px;
+}
+
+.Person_Block {
+    width: 654px;
+    height: 323px;
+    background: conic-gradient(from 0deg at 39.83% 53.1%, rgba(255, 255, 255, 0) 0deg, #00F0FF 305.97deg, rgba(255, 255, 255, 0) 360deg);
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    margin-left: 90px;
+}
+
+.Person_All_Info {
+    width: 300px;
+}
+
+.Person_Name {
+    width: 348px;
+    height: 45px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.Person_Info {
+    width: 354px;
+    height: 95px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* CONTACT DETAILS */
+
+
+.All_Info {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 100%;
+
+
+}
+.Map {
+    height: 100%;
+    width: 40%; 
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.Map img {
+    height: 594px;
+    width: 100%;
+}
+
+.Contact_all {
+    width: 45%;
+    height: 400px;
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-left:150px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* PARTNERS */
+
+.Img_Top_and_Bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 465px;
+}
+
+.Img_Center {
+    display: flex;
+    width: 100%;
+}
+
+.Img_Center div{
+    width: 50%;
+}
+
+.Center_Second_Img {
+    display: flex;
+    justify-content: flex-end;
 }
