@@ -1,0 +1,141 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+    background: white;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 193px;
+    background: linear-gradient(180deg, rgba(91, 127, 255, 0.53) 0%, rgba(196, 196, 196, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h2{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #000000;
+}
+
+/* FORM */
+
+.registration-content {
+    width: 1400px;
+    height: 677px;
+    margin: 5px auto;
+    background: linear-gradient(180deg, rgba(89, 185, 255, 0.33) 0%, rgba(89, 185, 255, 0) 100%);
+    border-radius: 22px;
+}
+
+label {
+    width: 337px;
+    height: 96px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.label-pol {
+    width: 25%;
+}
+
+.label-buttons{
+    font-size: 28px;
+    width: 200px;
+    height: 96px;
+}
+
+input {
+    width: 950px;
+    margin-top:15px;
+    height: 75px;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    font-size:34px;
+}
+
+.additional-container {
+    display: flex;
+
+}
+
+.input-buttons {
+    width: 40px;
+}
+
+/* BUTTON */
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    margin-right:100px;
+}
+
+.submit a{
+    width: 449px;
+    height: 71px;
+    background: linear-gradient(180deg, rgba(0, 209, 255, 0.44) 0%, rgba(196, 196, 196, 0) 100%);
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+
+    .wrapper {
+        width: 95%;
+    }
+
+    .registration-content {
+        width: 90%;
+    }
+
+    input {
+        width: 500px;
+        margin-right: 40px;
+    }
+    label {
+        font-size:24px;
+        width: ;
+    }
+
+    
+    .input-buttons {
+        width: 40px;
+        margin-right:0;
+    }
+
+
+    
+}
