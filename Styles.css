@@ -490,3 +490,19 @@ input {
     display: flex;
     justify-content: flex-end;
 }
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+    nav {
+        display: none;
+    }
+
+    .Slogan {
+        
+    }
+}
