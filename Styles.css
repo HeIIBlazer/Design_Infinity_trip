@@ -21,14 +21,14 @@ header {
 }
 
 .LogoImg{
-    margin-top:  24px ;
+    margin-top: 24px;
     width: 198px;
     height: 94px;
 
 }
 
 .Logo {
-    width: 100%;
+    width: 50%;
     height: 94px;
     font-family: 'Lexend Exa';
     font-style: normal;
@@ -38,35 +38,26 @@ header {
     text-transform: uppercase;
 }
 
-nav {
-    width: 100%;
-    display: flex;
-}
-
-nav ul {
+nav{
     display: flex;
     flex-direction: row;
-    align-items: left;
 }
 
-nav ul li {
-    width: 200px;
-    display:flex;
+nav a {
+    display: flex;
+    align-items: left;
     font-family: Lora, sans;
     font-style:italic;
     font-size:23px;
     align-items: flex-end;
-    height:100%;
-}
-
-nav ul li a{
     text-decoration: none; 
+    width: 200px;
+
 }
 
 .AccountPic {
     display: flex;
     align-items: center;
-    padding-right: 50px;
 }
 
 
@@ -74,23 +65,22 @@ nav ul li a{
 
 .main-page {
     display: flex;
-    margin: 0 auto;
     margin-top:100px;
     align-items: center;
 }
 
 .Title-Screen{
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     height: 100%;    
 }
 
 .Slogan {
-    font-family: Lora, serif;
     width: 100%;
-    font-size:70px;
+    font-family: Lora, serif;
+    font-size:68px;
     text-align: center;
 }
 
@@ -124,7 +114,6 @@ nav ul li a{
 }
 
 .title-image {
-    width: 20%;
     display: flex;
     justify-content: flex-end;
 }
@@ -190,9 +179,10 @@ nav ul li a{
 .Stock-all{
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
-    margin-right: 190px;
-    width: 41%;
+     margin-left: 20px;
+    margin-right: 190px; 
+    width: 100%;
+    justify-content: center;
 }
 
 .Stock-Button {
@@ -243,8 +233,8 @@ nav ul li a{
 .Stock-Family {
     display:flex;
     width: 100%;
-    justify-content:flex-end;
-    margin-left: 420px;
+    justify-content:center;
+    margin-bottom: 20px;
 }
 
 /* REVIEW */
@@ -256,8 +246,6 @@ nav ul li a{
 
 
 .Review-Full {
-    width: 1411px;
-    height: 750px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 41.67%, rgba(0, 133, 255, 0.08) 100%);
     border: 13px solid rgba(0, 163, 255, 0.39);
     border-radius: 32px;
@@ -266,6 +254,7 @@ nav ul li a{
 
 .Review {
     display: flex;
+    justify-content: center;
 }
 
 .Name_Surname {
@@ -276,6 +265,7 @@ nav ul li a{
     line-height: 41px;
     display: flex;
     align-items: center;
+    align-self: center;
 }
 
 .Review p {
@@ -303,7 +293,7 @@ nav ul li a{
 /* FEEDBACK */
 
 .Feedback { 
-    width: 1450px;
+    width: 90%;
     height: 569px;  
     margin: 50px auto;
     background: linear-gradient(180deg, #C4FFC6 0%, rgba(255, 255, 255, 0) 100%);
@@ -311,7 +301,7 @@ nav ul li a{
 }
 
 input {
-    width: 650px;
+    width: 46%;
     height: 101px;
     border: 3px solid #000000;
     box-sizing: border-box;
@@ -324,15 +314,15 @@ input {
 }
 
 .Feedback_Big {
-    width: 1375px;
+    width: 100%;
     height: 101px;
     box-sizing: border-box;
-    margin: 10px auto;
 }
 .Feedback_Big textarea {
-    width: 1369px;
+    width: 96%;
     height: 300px;
     font-size: 29px;
+    margin: 10px 28px;
 }
 
 .FeedBack_Button {
@@ -362,7 +352,7 @@ input {
 /* TEAM */
 
 .Team{
-    margin: 0 auto;
+    margin: 0 10px;
 }
 
 .All_Persons_Top {
@@ -439,9 +429,8 @@ input {
     flex-direction: row;
     height: 700px;
     width: 100%;
-
-
 }
+
 .Map {
     height: 100%;
     width: 40%; 
@@ -498,11 +487,144 @@ input {
     }
 
     /* HEADER */
+
     nav {
         display: none;
     }
 
-    .Slogan {
+    .Logo {
+        width: 50%;
+    }
+
+    .AccountPic{
+        width: 100%;
+        justify-content: flex-end;  
+    }
+
+    /* MAIN */
+
+    .main-page{
+    margin-top: 0;
+    }
+
+    .Title-Screen{
+        width: 100%;
+    }
+    
+    .title-image{
+        width: 20%;
+        align-items: center;
+    }
+
+    .BENImg{
+        width: 300px;
+        object-fit: cover;
+        object-position:6% 10%;
+    }
+
+    /* STOCK PAGE */
+
+    .Stock-all{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
         
     }
+
+    .Stock-Island h3{
+        font-size:40px;
+        font-weight:900;
+        display: flex;
+    }
+       
+    /* REVIEW */
+
+    .Review{
+        flex-direction: column;
+    }
+
+    .Review p{
+        width: 100%;
+    }
+
+    .review-solo{
+        margin-left: 10px;
+    }
+
+    .Stars_Background{
+        margin-bottom: 20px;
+    }
+
+    /* FEEDBACK */
+
+    input{
+        width: 300px;
+        margin: 0;
+        margin-left:20px;
+    }
+
+    .Feedback_Big textarea{
+        margin:0;
+        margin-top: 50px;
+        margin-left:10px;
+    }
+
+    /* TEAM */
+
+    .Team{
+        width: 655px;
+        margin: 0;
+    }
+
+    .All_Persons_Top{
+        margin-bottom:-50px;
+    }
+
+    /* CONTACTS  */
+
+    .All_Info {
+        margin-top:0;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 90%;
+    }
+    .Map{
+        width: 650px;
+    }
+
+    .Contact_all{
+        width: 90%;
+        height: 550px;
+        margin-left: 45px;
+    }
+
+    /* PARTNERS */
+
+    
+    .Img_Center{
+        flex-direction:column;
+    }
+
+    .Img_Center div {
+        width: 100%;
+    }
+
+    .Center_First_Img{
+        display: flex;
+        justify-content:center;
+        margin-bottom: 60px;
+    }
+
+    .Center_Second_Img{
+        justify-content:center;
+    }
+    
+    .Center_First_Img img{
+        width: 70%;
+    }
+
+    .Center_Second_Img img{
+        width: 70%;
+    }
+
 }
