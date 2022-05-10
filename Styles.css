@@ -480,6 +480,100 @@ input {
     justify-content: flex-end;
 }
 
+@media (max-width: 1690px){
+    nav{
+        flex-direction: column;
+    }
+    
+    nav a {
+        display: flex;
+        align-items: left;
+        font-family: Lora, sans;
+        font-style:italic;
+        font-size:23px;
+        align-items: flex-end;
+        text-decoration: none; 
+        width: 200px;
+    
+    }
+}
+
+@media (max-width: 1500px){
+    .All_Info {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 90%;
+    }
+    .Map{
+        width: 650px;
+    }
+
+    .Contact_all{
+        width: 90%;
+        height: 550px;
+        margin-left: 45px;
+    }
+}
+
+
+@media (max-width: 1414px){
+    .Stock-all{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        
+    }
+
+    .Stock-Island h3{
+        font-size:40px;
+        font-weight:900;
+        display: flex;
+    }
+}
+
+@media (max-width: 930px){
+    .title-image{
+        width: 30%;
+        align-items: center;
+    }
+
+    .BENImg{
+        width: 300px;
+        object-fit: cover;
+        object-position:10% 10%;
+    }
+}
+
+@media (min-width: 1080px){     
+    .Img_Center{
+        flex-direction:column;
+    }
+
+    .Img_Center div {
+        width: 100%;
+    }
+
+    .Center_First_Img{
+        display: flex;
+        justify-content:center;
+        margin-bottom: 60px;
+    }
+
+    .Center_Second_Img{
+        justify-content:center;
+    }
+    
+    .Center_First_Img img{
+        width: 70%;
+    }
+
+    .Center_Second_Img img{
+        width: 70%;
+    }
+}
+
 @media (max-width: 768px) {
     .wrapper {
         width: 100%;
@@ -572,7 +666,7 @@ input {
     /* TEAM */
 
     .Team{
-        width: 655px;
+        width: 680px;
         margin: 0;
     }
 
