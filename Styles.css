@@ -480,6 +480,12 @@ input {
     justify-content: flex-end;
 }
 
+.asidee {
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+}
+
 @media (max-width: 1690px){
     nav{
         flex-direction: column;
@@ -546,7 +552,7 @@ input {
     }
 }
 
-@media (min-width: 1080px){     
+@media (max-width: 1080px){     
     .Img_Center{
         flex-direction:column;
     }
