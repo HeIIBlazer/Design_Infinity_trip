@@ -93,22 +93,22 @@ nav a {
 
 .Title-button{
     margin: 85px;
-    width: 324px;
-    height: 68px;
+    width: 450px;
+    height: 110px;
     display: flex;
     border: 1px solid;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color:#00FF47;
+    background-color:#1ccf43;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 21px;
+    border-radius: 10px;
 }
 
 .Title-button a{
-    font-size: 36px;
+    font-size: 55px;
     font-family:Lora, sans;
-    font-weight: 900;
+    font-weight: bold;
     background-color:00FF47;  
     text-decoration: none;
 }
@@ -139,7 +139,7 @@ nav a {
     align-self: center;
     text-align: center;
     justify-content: center;
-    margin-top:100px ;
+    margin-top:100px;
 }
 .Header h2{
     font-style: normal;
@@ -179,7 +179,7 @@ nav a {
 .Stock-all{
     display: flex;
     flex-direction: row;
-     margin-left: 20px;
+    margin-left: 20px;
     margin-right: 190px; 
     width: 100%;
     justify-content: center;
@@ -187,11 +187,12 @@ nav a {
 
 .Stock-Button {
     display: flex;
-    background: linear-gradient(180deg, rgba(47, 230, 255, 0.65) 0%, rgba(0, 224, 255, 0.0715) 61.46%);
-    border: 5px solid #000000;
+    /* background: linear-gradient(180deg, rgba(47, 230, 255, 0.65) 0%, rgba(0, 224, 255, 0.0715) 61.46%); */
+    background:#9dfab1;
+    border: 5px solid #0b7a23;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 24px;
+    border-radius: 15px;
     width: 662px;
     height: 90px;
     align-items: center;
@@ -216,8 +217,9 @@ nav a {
     flex-direction:column;
     align-items: center;
     border: 7px solid ;
-    border-color:rgba(0, 102, 255, 1) ;
-    background: linear-gradient(180deg, rgba(20, 0, 255, 0.2) -24.47%, rgba(255, 255, 255, 0) 100%);
+    border-color:rgb(69, 136, 67) ;
+    background-color:#a7f0b6;
+    /* background: linear-gradient(180deg, rgba(20, 0, 255, 0.2) -24.47%, rgba(255, 255, 255, 0) 100%); */
     border-radius: 9px;
     font-size: 40px;
     line-height: 1px;
@@ -379,7 +381,7 @@ input {
 .Person_Block {
     width: 654px;
     height: 323px;
-    background: conic-gradient(from 0deg at 39.83% 53.1%, rgba(255, 255, 255, 0) 0deg, #00F0FF 305.97deg, rgba(255, 255, 255, 0) 360deg);
+    background: conic-gradient(from 0deg at 39.83% 53.1%, rgba(255, 255, 255, 0) 0deg, #14d63e 305.97deg, rgba(255, 255, 255, 0) 360deg);
     border: 5px solid #000000;
     box-sizing: border-box;
     border-radius: 7px;
